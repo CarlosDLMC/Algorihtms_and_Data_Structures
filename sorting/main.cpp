@@ -227,6 +227,6 @@ int main(){
 	iterdance(vl, vl.begin (), vl.end() - 1);
 	t2 = chrono::high_resolution_clock::now();
 	dif = chrono::duration_cast<chrono::microseconds>(t2 - t1);
-	cout << "El baile tarda " << dif.count () << " microsegundos" << endl;
+	cout << "El baile iterador tarda " << dif.count () << " microsegundos" << endl;
 	return 0;
 }
